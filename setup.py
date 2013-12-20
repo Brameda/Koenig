@@ -5,7 +5,7 @@ from setuptools import setup
 setup(
     name='koenig',
     version='0.0.1-beta',
-    description='Document & Printing app for Django.',
+    description='Printing app for Django.',
     author='Merijn Bertels',
     author_email='merijn.bertels@brameda.nl',
     long_description=open('README.rst', 'r').read(),

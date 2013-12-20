@@ -1,12 +1,12 @@
-from koenig.backends import PrintGateway
+from .generic import PrintBackend
 
+class GoogleCloudPrintBackend(PrintBackend):
 
-class GoogleCloudPrintGateway(PrintGateway):
+    name = 'Google Cloud Print'
+    slug = 'google-cloud-print'
 
-    def __init__(self, **connection_options):
-
-
-        
-
-        pass
-
+    # functions
+    # ----------------
+    # get all printers
+    # get a print
+    # submit print job
